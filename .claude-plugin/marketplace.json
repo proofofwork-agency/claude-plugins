@@ -1,8 +1,8 @@
 {
   "name": "proofofwork.agency",
   "owner": {
-    "name": "Danillo Felixdaal",
-    "email": "danillo@proofofwork.ventures"
+    "name": "Proofofwork Agency",
+    "email": "info@proofofwork.ventures"
   },
   "metadata": {
     "description": "Proof of Work Agency plugin marketplace for Claude Code extensions",
