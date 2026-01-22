@@ -1,0 +1,12 @@
+{
+  "name": "provider-switcher",
+  "version": "1.0.0",
+  "description": "Switch Claude Code model providers and manage provider definitions with support for Anthropic, OpenRouter, Z.AI, and custom endpoints",
+  "author": {
+    "name": "Danillo Felixdaal",
+    "company": "Proof of Work Agency",
+    "url": "https://proofofwork.ventures/"
+  },
+  "license": "MIT",
+  "keywords": ["provider", "model", "config", "anthropic", "openrouter"]
+}

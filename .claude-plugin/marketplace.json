@@ -1,0 +1,26 @@
+{
+  "name": "proofofwork.agency",
+  "owner": {
+    "name": "Danillo Felixdaal",
+    "email": "danillo@proofofwork.ventures"
+  },
+  "metadata": {
+    "description": "Proof of Work Agency plugin marketplace for Claude Code extensions",
+    "version": "1.0.0",
+    "pluginRoot": "./plugins"
+  },
+  "plugins": [
+    {
+      "name": "provider-switcher",
+      "source": "./plugins/provider-switcher",
+      "description": "Switch Claude Code model providers and manage provider definitions with support for Anthropic, OpenRouter, Z.AI, and custom endpoints",
+      "version": "1.0.0",
+      "author": {
+        "name": "Danillo Felixdaal"
+      },
+      "license": "MIT",
+      "keywords": ["provider", "model", "config", "anthropic", "openrouter"],
+      "category": "configuration"
+    }
+  ]
+}

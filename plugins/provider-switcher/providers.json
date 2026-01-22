@@ -1,0 +1,31 @@
+{
+  "anthropic": {
+    "base_url": null,
+    "api_key_env": "ANTHROPIC_API_KEY",
+    "uses_native_token": true,
+    "default_models": {
+      "haiku": null,
+      "sonnet": null,
+      "opus": null
+    }
+  },
+  "openrouter": {
+    "base_url": "https://openrouter.ai/api",
+    "api_key_env": "OPENROUTER_API_KEY",
+    "requires_empty_anthropic_key": true,
+    "default_models": {
+      "haiku": "xiaomi/mimo-v2-flash",
+      "sonnet": "x-ai/grok-code-fast-1",
+      "opus": "deepseek/deepseek-v3.2"
+    }
+  },
+  "zai": {
+    "base_url": "https://api.z.ai/api/anthropic",
+    "api_key_env": "ZAI_API_KEY",
+    "default_models": {
+      "haiku": "glm-4.5-air",
+      "sonnet": "glm-4.7",
+      "opus": "glm-4.7"
+    }
+  }
+}
